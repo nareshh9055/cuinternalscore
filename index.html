@@ -23,8 +23,15 @@ body {
     padding: 40px;
     border-radius: 20px;
     text-align: center;
-    width: 320px;
+    width: 340px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+.university {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #ddd;
+    margin-bottom: 5px;
 }
 
 h1 {
@@ -47,27 +54,4 @@ button {
 .practical { background: #ff4e50; }
 
 button:hover {
-    transform: scale(1.05);
-}
-</style>
-</head>
-
-<body>
-
-<div class="card">
-    <h1>📊 Marks Portal</h1>
-
-    <button class="hybrid" onclick="go('hybrid')">Hybrid Mode</button>
-    <button class="theory" onclick="go('theory')">Theory Mode</button>
-    <button class="practical" onclick="go('practical')">Practical Mode</button>
-</div>
-
-<script>
-function go(mode){
-    localStorage.setItem("mode", mode);
-    window.location.href = "calculator.html";
-}
-</script>
-
-</body>
-</html>
+    transform
